@@ -15,14 +15,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.views.generic import TemplateView
 
 from app1 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # --------------------------------------------------
+# --------------------------------------------------
     path('',views.mainpage,name="mainpage"),
-    # -----------------admin main button--------------------------
+# -----------------admin main button--------------------------
     path('admin_main/',views.admin_main,name="admin_main"),
     path('after_admin_login/',views.after_admin_login,name="after_admin_login"),
+    path('AdminLoginHome/',TemplateView.as_view(template_name='AfterAdminLogin.html'),name="AdminLoginHome"),
+# -----------------schedule new class-----------------------------------------------
+    path('sch_new_class/',views.sch_new_class,name="sch_new_class"),
+    path('schNewClassDatabase/',views.schNewClassDatabase,name="schNewClassDatabase"),
+
 ]

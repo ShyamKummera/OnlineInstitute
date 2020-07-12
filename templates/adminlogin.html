@@ -16,10 +16,11 @@
   <body style="background-image: url('{% static "images/adminloginform.jpg" %}');background-size: cover;background-repeat: no-repeat;overflow: hidden">
   <form action="{% url 'after_admin_login' %}" method="post" >
       {% csrf_token %}
-  <table border="0" align="left" style="margin-top: 150px;margin-left: 150px;background-color: white;width: 450px;height: 300px">
+  <table border="0" align="left" style="margin-top: 150px;margin-left: 150px;background-color: white;width: 450px;height: 330px;border-radius: 20px">
       <tr align="center">
         <td>
-       <table align="center">
+
+       <table align="center" style="box-shadow: 0px 4px 8px lightgrey, 1px 6px 12px darkgrey">
       <tr align="center">
           <th colspan="2">
               <div class="p-3 mb-0 bg-info text-white">Admin Login</div>
@@ -37,19 +38,20 @@
               <button type="submit" class="btn btn-success">Login</button>
           </th>
       </tr>
-           <tr align="center">
-              <th>
+
+       </table>
+
+      </td>
+      </tr>
+      <tr align="center">
+              <th colspan="2">
                   {% for x in messages %}
-                  <div class="alert alert-danger" role="alert">
+                  <div style="width: 80%" class="alert alert-danger" role="alert">
                     {{ x }}
                   </div>
                   {% endfor %}
               </th>
           </tr>
-       </table>
-
-      </td>
-      </tr>
   </table>
   </form>
 

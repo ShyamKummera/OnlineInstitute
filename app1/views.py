@@ -1,6 +1,6 @@
 from django.contrib import messages
 from django.shortcuts import render, redirect
-from app1.forms import AdminLoginForm
+from app1.forms import AdminLoginForm, ScheduleClassForm
 from app1.models import AdminLogin
 
 
@@ -22,3 +22,18 @@ def after_admin_login(request):
     except AdminLogin.DoesNotExist:
         messages.error(request,"incorrect username or password")
         return redirect('admin_main')
+
+
+def sch_new_class(request):
+    snc = ScheduleClassForm()
+    return render(request,'scheduleNewClass.html',{"form":snc})
+
+
+def schNewClassDatabase(request):
+    scfd = ScheduleClassForm(request.POST)
+    if scfd.is_valid():
+        scfd.save()
+        messages.success(request,"Details Added Successfully")
+        return redirect('sch_new_class')
+    else:
+        return render(request,'scheduleNewClass.html',{"form":scfd})
