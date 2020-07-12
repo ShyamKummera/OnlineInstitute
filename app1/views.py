@@ -42,3 +42,21 @@ def schNewClassDatabase(request):
 def ViewAllClasses(request):
     sc = ScheduleNewClass.objects.all()
     return render(request,'ViewAllClasses.html',{"data":sc})
+
+
+def updateCourse(request):
+    fif = request.GET.get("cid")
+    up = ScheduleNewClass.objects.get(course_id=fif)
+    return render(request,'updateCourse.html',{"data":up})
+
+
+def updatedSuccess(request):
+    id = request.POST.get('u1')
+    c_name =request.POST.get('u2')
+    fac = request.POST.get('u3')
+    date = request.POST.get('u4')
+    time = request.POST.get('u5')
+    fair = request.POST.get('u6')
+    days = request.POST.get('u7')
+
+    return None

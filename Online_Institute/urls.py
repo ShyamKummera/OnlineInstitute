@@ -32,4 +32,7 @@ urlpatterns = [
     path('schNewClassDatabase/',views.schNewClassDatabase,name="schNewClassDatabase"),
 # ------------------View all Schedule classes-----------------------------------------------
     path('ViewAllClasses/',views.ViewAllClasses,name="ViewAllClasses"),
+    path('updateCourse/',views.updateCourse,name="updateCourse"),
+    path('updatedSuccess/',views.updatedSuccess,name="updatedSuccess"),
+
 ]
