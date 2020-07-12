@@ -30,5 +30,6 @@ urlpatterns = [
 # -----------------schedule new class-----------------------------------------------
     path('sch_new_class/',views.sch_new_class,name="sch_new_class"),
     path('schNewClassDatabase/',views.schNewClassDatabase,name="schNewClassDatabase"),
-
+# ------------------View all Schedule classes-----------------------------------------------
+    path('ViewAllClasses/',views.ViewAllClasses,name="ViewAllClasses"),
 ]

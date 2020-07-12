@@ -1,7 +1,7 @@
 from django.contrib import messages
 from django.shortcuts import render, redirect
 from app1.forms import AdminLoginForm, ScheduleClassForm
-from app1.models import AdminLogin
+from app1.models import AdminLogin, ScheduleNewClass
 
 
 def mainpage(request):
@@ -37,3 +37,8 @@ def schNewClassDatabase(request):
         return redirect('sch_new_class')
     else:
         return render(request,'scheduleNewClass.html',{"form":scfd})
+
+
+def ViewAllClasses(request):
+    sc = ScheduleNewClass.objects.all()
+    return render(request,'ViewAllClasses.html',{"data":sc})
