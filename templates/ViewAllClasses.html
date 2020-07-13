@@ -25,6 +25,15 @@
               </h1>
           </th>
       </tr>
+      {% for z in messages %}
+      <tr>
+          <th>
+                <div class="alert alert-success" role="alert">
+                    {{ z }}
+                </div>
+          </th>
+      </tr>
+      {% endfor %}
   </table>
   <table align="center" border="2" width="70%" style="height: 400px;box-shadow: 0px 4px 8px lightgrey,0px 6px 12px darkgrey">
       <tr class="bg-success" align="center" style="height: 70px"  >
@@ -84,7 +93,7 @@
             <a href="{% url 'updateCourse' %}?cid={{ y.course_id }}">yes</a>
         </th>
       <th>
-          <a href="#"><img src="{% static 'images/delete.png' %}"></a>
+          <a href="{% url 'deleteCourse' %}?did={{ y.course_id }}"><img src="{% static 'images/delete.png' %}"></a>
       </th>
       </tr>
       {% endfor %}

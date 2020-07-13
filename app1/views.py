@@ -58,5 +58,12 @@ def updatedSuccess(request):
     time = request.POST.get('u5')
     fair = request.POST.get('u6')
     days = request.POST.get('u7')
+    ScheduleNewClass.objects.filter(course_id=id).update(course_name=c_name,faculty=fac,date_course_start=date,time_start=time,fee=fair,duration=days)
+    messages.success(request,'Details Updated Successfully')
+    return redirect('ViewAllClasses')
 
-    return None
+
+def deleteCourse(request):
+    d_get = request.GET.get('did')
+    ScheduleNewClass.objects.filter(course_id=d_get).delete()
+    return redirect('ViewAllClasses')

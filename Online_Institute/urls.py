@@ -34,5 +34,6 @@ urlpatterns = [
     path('ViewAllClasses/',views.ViewAllClasses,name="ViewAllClasses"),
     path('updateCourse/',views.updateCourse,name="updateCourse"),
     path('updatedSuccess/',views.updatedSuccess,name="updatedSuccess"),
+    path('deleteCourse/',views.deleteCourse,name="deleteCourse"),
 
 ]
