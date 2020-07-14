@@ -25,4 +25,9 @@ urlpatterns = [
     path('student_main/',views.student_main,name="student_main"),
 # -----------------------student Registration------------------------------------------------
     path('studentRegister/',views.studentRegister,name="studentRegister"),
+    path('saveStuReg/',views.saveStuReg,name="saveStuReg"),
+# -------------------------StudentLogin-------------------------------------------------
+    path('studentLogin/',views.studentLogin,name="studentLogin"),
+    path('clickLoginButton/',views.clickLoginButton,name="clickLoginButton"),
+
 ]

@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7c9ed6d-877b-4692-94d9-17a586e84248" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app1/static/images/studentmain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app1/static/images/young-smiling.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/studentRegister.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/StudentHomePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/studentLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/studentNavbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/studentNavbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/student_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/student_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/studentRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/studentRegister.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +57,7 @@
     <session id="2061560675">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.110" value="1" />
@@ -62,6 +65,7 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
@@ -73,24 +77,24 @@
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.85" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="18" />
-          <entry key="html" value="5949" />
-          <entry key="py" value="3289" />
-          <entry key="py@Online_Institute" value="14" />
-          <entry key="txt" value="146" />
+          <entry key="html" value="6566" />
+          <entry key="py" value="4064" />
+          <entry key="py@Online_Institute" value="75" />
+          <entry key="txt" value="209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="14" />
-          <entry key="HTML" value="5949" />
-          <entry key="PLAIN_TEXT" value="146" />
-          <entry key="Python" value="3289" />
+          <entry key="CommandLine" value="75" />
+          <entry key="HTML" value="6566" />
+          <entry key="PLAIN_TEXT" value="209" />
+          <entry key="Python" value="4064" />
           <entry key="Scratch" value="18" />
         </counts>
       </usages-collector>
@@ -99,18 +103,19 @@
           <entry key="app1_adminlogin" value="1" />
           <entry key="app1_schedulenewclass" value="6" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="21" />
+          <entry key="html" value="23" />
           <entry key="jpg" value="1" />
-          <entry key="py" value="15" />
+          <entry key="py" value="20" />
+          <entry key="student_studentregistermodel" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="7" />
-          <entry key="HTML" value="21" />
+          <entry key="Database Element" value="10" />
+          <entry key="HTML" value="23" />
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="15" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -132,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="155">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="e#640#672#0" expanded="true" />
               </folding>
@@ -141,13 +146,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app1/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/studentRegister.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="235">
+              <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,17 +161,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="182">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/studentRegister.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/StudentHomePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="951">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/studentLogin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding>
+                <marker date="1594718016355" expanded="true" signature="123:307" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,27 +203,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/student_main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2619">
-              <caret line="121" column="57" lean-forward="true" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
-              <folding>
-                <element signature="e#591#713#0#HTML" expanded="true" />
-                <element signature="e#740#796#0#HTML" expanded="true" />
-                <element signature="e#946#974#0#HTML" expanded="true" />
-                <element signature="e#861#895#0#HTML" expanded="true" />
-                <element signature="e#908#930#0#HTML" expanded="true" />
-                <element signature="e#967#1001#0#HTML" expanded="true" />
-                <element signature="e#1553#1573#0#HTML" expanded="true" />
-                <element signature="e#2126#2147#0#HTML" expanded="true" />
-                <element signature="e#2207#2227#0#HTML" expanded="true" />
-                <element signature="e#2795#2815#0#HTML" expanded="true" />
-                <element signature="e#3523#3543#0#HTML" expanded="true" />
-                <element signature="e#3570#3591#0#HTML" expanded="true" />
-                <element signature="e#3651#3671#0#HTML" expanded="true" />
-                <element signature="e#4239#4259#0#HTML" expanded="true" />
-                <element signature="e#4788#4809#0#HTML" expanded="true" />
-                <element signature="e#4869#4889#0#HTML" expanded="true" />
-                <element signature="e#5454#5474#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="411">
+              <caret line="121" column="57" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -202,11 +212,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/studentNavbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="222">
+              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -252,9 +261,12 @@
         <option value="$PROJECT_DIR$/Online_Institute/urls.py" />
         <option value="$PROJECT_DIR$/templates/AdminloginNavbar.html" />
         <option value="$PROJECT_DIR$/templates/student_main.html" />
+        <option value="$PROJECT_DIR$/student/models.py" />
         <option value="$PROJECT_DIR$/templates/studentNavbar.html" />
         <option value="$PROJECT_DIR$/student/urls.py" />
+        <option value="$PROJECT_DIR$/templates/StudentHomePage.html" />
         <option value="$PROJECT_DIR$/student/views.py" />
+        <option value="$PROJECT_DIR$/templates/studentLogin.html" />
         <option value="$PROJECT_DIR$/templates/studentRegister.html" />
       </list>
     </option>
@@ -265,7 +277,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -289,19 +301,6 @@
               <item name="Online_Institute" type="b2602c69:ProjectViewProjectNode" />
               <item name="Online_Institute" type="462c0819:PsiDirectoryNode" />
               <item name="app1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online_Institute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online_Institute" type="462c0819:PsiDirectoryNode" />
-              <item name="app1" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online_Institute" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online_Institute" type="462c0819:PsiDirectoryNode" />
-              <item name="app1" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Online_Institute" type="b2602c69:ProjectViewProjectNode" />
@@ -429,19 +428,26 @@
       <option name="project" value="LOCAL" />
       <updated>1594659253447</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Student Home page completed,Student Registration doing">
+      <created>1594697380353</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594697380353</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17651007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17919463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26912183" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26912183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,7 +503,8 @@
     <MESSAGE value="adding newcourse completed&#10;delete,update completed" />
     <MESSAGE value="adding newcourse completed&#10;delete,update completed&#10;Admin part totally completed" />
     <MESSAGE value="Student main page nav bar completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Student main page nav bar completed" />
+    <MESSAGE value="Student Home page completed,Student Registration doing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Student Home page completed,Student Registration doing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://65e38996-957d-4cec-b96d-5c1ef09c468e/schema/main/table/app1_adminlogin" />
@@ -506,10 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1594537997852" expanded="true" signature="490:495" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,16 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2592">
           <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <marker date="1594487130451" expanded="true" signature="194:199" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,53 +608,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/student_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2619">
-          <caret line="121" column="57" lean-forward="true" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
-          <folding>
-            <element signature="e#591#713#0#HTML" expanded="true" />
-            <element signature="e#740#796#0#HTML" expanded="true" />
-            <element signature="e#946#974#0#HTML" expanded="true" />
-            <element signature="e#861#895#0#HTML" expanded="true" />
-            <element signature="e#908#930#0#HTML" expanded="true" />
-            <element signature="e#967#1001#0#HTML" expanded="true" />
-            <element signature="e#1553#1573#0#HTML" expanded="true" />
-            <element signature="e#2126#2147#0#HTML" expanded="true" />
-            <element signature="e#2207#2227#0#HTML" expanded="true" />
-            <element signature="e#2795#2815#0#HTML" expanded="true" />
-            <element signature="e#3523#3543#0#HTML" expanded="true" />
-            <element signature="e#3570#3591#0#HTML" expanded="true" />
-            <element signature="e#3651#3671#0#HTML" expanded="true" />
-            <element signature="e#4239#4259#0#HTML" expanded="true" />
-            <element signature="e#4788#4809#0#HTML" expanded="true" />
-            <element signature="e#4869#4889#0#HTML" expanded="true" />
-            <element signature="e#5454#5474#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/studentNavbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app1/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="108">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -669,10 +618,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <marker date="1594487130451" expanded="true" signature="194:199" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fba902f2-e2ab-4de2-84cf-e2612a13d937/schema/main/table/student_studentregistermodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/student_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="121" column="57" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/studentNavbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/StudentHomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <marker date="1594718016355" expanded="true" signature="123:307" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/student/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="155">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="e#640#672#0" expanded="true" />
           </folding>
@@ -681,15 +691,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/student/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="182">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/studentLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/studentRegister.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="235">
+          <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
