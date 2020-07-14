@@ -22,5 +22,7 @@ from student import views
 urlpatterns = [
     path('admin/', admin.site.urls),
 # --------------------student main page--------------------------------------------------
-    path('student_main/',views.student_main,name="student_main")
+    path('student_main/',views.student_main,name="student_main"),
+# -----------------------student Registration------------------------------------------------
+    path('studentRegister/',views.studentRegister,name="studentRegister"),
 ]

@@ -15,19 +15,137 @@
 
     <title>Welcome Student</title>
   </head>
-  <body>
-  <table>
+  <body style="background-image: url('{% static "images/studentmain.jpg" %}');background-repeat: no-repeat;background-size: cover">
+
+  <table align="center">
       <tr>
           <th>
-
-          </th>
-          <th>
-
+              <h1 style="font-family: Arial;color: darkblue"><b>OUR COURSES</b></h1>
           </th>
       </tr>
   </table>
+  <table>
+      <tr>
+          <th>
+            <div style="padding-right: 350px">
+                <table style="margin: 30px">
+      <tr>
+          <th style="padding: 30px">
+             <div class="card text-white bg-primary mb-3" style="width: 220px">
+                <div class="card-header">PYTHON</div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Faculty : Naveen</h5>
+                        <p class="card-text">Date: 25-07-2020</p>
+                        <p class="card-text">Time: 10:00 AM</p>
+                        <p class="card-text">Fee: 3000/-</p>
+                        <p class="card-text">Duration:45days</p>
+                    </div>
+                </div>
+          </th>
+          <th>
+              <div class="card text-white bg-secondary mb-3" style="width: 220px">
+                <div class="card-header">Django</div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Faculty : SHAKILA</h5>
+                        <p class="card-text">Date: 31-07-2020</p>
+                        <p class="card-text">Time: 11:00 AM</p>
+                        <p class="card-text">Fee: 4000/-</p>
+                        <p class="card-text">Duration:45days</p>
+                    </div>
+                </div>
+          </th>
+      </tr>
+      <tr>
+          <th style="padding: 30px">
+             <div class="card text-white bg-success mb-3" style="width: 220px">
+                <div class="card-header">RestApi</div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Faculty : Naveen</h5>
+                        <p class="card-text">Date: 02-08-2020</p>
+                        <p class="card-text">Time: 11:00 AM</p>
+                        <p class="card-text">Fee: 6000/-</p>
+                        <p class="card-text">Duration:45days</p>
+                    </div>
+                </div>
+          </th>
+          <th>
+              <div class="card text-white bg-danger mb-3" style="width: 220px">
+                <div class="card-header">Javascript</div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Faculty : SMITHA</h5>
+                        <p class="card-text">Date: 15-08-2020</p>
+                        <p class="card-text">Time: 08:00 PM</p>
+                        <p class="card-text">Fee: 2000/-</p>
+                        <p class="card-text">Duration:45days</p>
+                    </div>
+                </div>
+          </th>
+      </tr>
 
+  </table>
+             </div>
+          </th>
+          <th>
+            <div >
+                <table style="margin: 30px">
+      <tr>
+          <th style="padding: 30px">
+             <div class="card text-white bg-warning mb-3" style="width: 220px">
+                <div class="card-header">JQUERY</div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Faculty : KUSUMA</h5>
+                        <p class="card-text">Date: 25-07-2020</p>
+                        <p class="card-text">Time: 10:00 AM</p>
+                        <p class="card-text">Fee: 3000/-</p>
+                        <p class="card-text">Duration:45days</p>
+                    </div>
+                </div>
+          </th>
+          <th>
+              <div class="card text-white bg-info mb-3" style="width: 220px">
+                <div class="card-header">ANGULAR</div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Faculty : Padma</h5>
+                        <p class="card-text">Date: 31-07-2020</p>
+                        <p class="card-text">Time: 11:00 AM</p>
+                        <p class="card-text">Fee: 4000/-</p>
+                        <p class="card-text">Duration:45days</p>
+                    </div>
+                </div>
+          </th>
+      </tr>
+      <tr>
+          <th style="padding: 30px">
+             <div class="card text-white bg-primary mb-3" style="width: 220px">
+                <div class="card-header">BOOSTRAP</div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Faculty :Santhosh</h5>
+                        <p class="card-text">Date: 02-08-2020</p>
+                        <p class="card-text">Time: 6:00 PM</p>
+                        <p class="card-text">Fee: 5000/-</p>
+                        <p class="card-text">Duration:45days</p>
+                    </div>
+                </div>
+          </th>
+          <th>
+              <div class="card text-white bg-danger mb-3" style="width: 220px">
+                <div class="card-header">JAVA</div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Faculty : ANAND RAO</h5>
+                        <p class="card-text">Date: 25-07-2020</p>
+                        <p class="card-text">Time: 10:00 AM</p>
+                        <p class="card-text">Fee: 3000/-</p>
+                        <p class="card-text">Duration:45days</p>
+                    </div>
+                </div>
+          </th>
+      </tr>
 
+  </table>
+            </div>
+          </th>
+      </tr>
+  </table>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -37,5 +155,5 @@
 </html>
 
 
-<div style="position: absolute;bottom: 0px;width: 100%">{% include 'footer.html' %}</div>
+{% include 'footer.html' %}
 {% endblock %}
