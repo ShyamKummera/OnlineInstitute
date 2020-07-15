@@ -6,3 +6,8 @@ class StudentRegisterModel(models.Model):
     contact_no = models.IntegerField(unique=True)
     Email = models.EmailField(unique=True)
     password = models.CharField(max_length=20)
+
+class StudentEnrolDetails(models.Model):
+    enrol_id = models.AutoField(primary_key=True)
+    student_contact_no = models.IntegerField()
+    course_name = models.CharField(max_length=30)

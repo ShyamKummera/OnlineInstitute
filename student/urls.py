@@ -28,6 +28,16 @@ urlpatterns = [
     path('saveStuReg/',views.saveStuReg,name="saveStuReg"),
 # -------------------------StudentLogin-------------------------------------------------
     path('studentLogin/',views.studentLogin,name="studentLogin"),
+    path('StuHomeAfterLogin/',views.StuHomeAfterLogin,name="StuHomeAfterLogin"),
     path('clickLoginButton/',views.clickLoginButton,name="clickLoginButton"),
+# ---------------------------student after Login--------------------------------------
+    path('enrolCourse/', views.enrolCourse, name="enrolCourse"),
+    path('yesEnrol/', views.yesEnrol, name="yesEnrol"),
+# ----------------------------view all enroll courses---------------------------------------------------
+
+    path('viewAllEnrolCourse/',views.viewAllEnrolCourse,name="viewAllEnrolCourse"),
+
+# ---------------------------student Logout-----------------------------------------------------
+    path('logoutStudent/',views.logoutStudent,name="logoutStudent"),
 
 ]
