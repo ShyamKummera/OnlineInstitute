@@ -29,10 +29,13 @@
         <a class="nav-link" href="{% url 'viewAllEnrolCourse' %}" style="color: white;padding-right: 30px">View All Enrol Courses</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" style="color: white;padding-right: 30px">Cancel Enrol Courses</a>
+        <a class="nav-link" href="{% url 'cancelEnrolCourses' %}" style="color: white;padding-right: 30px">Cancel Enrol Courses</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{% url 'logoutStudent' %}" style="color: white;padding-right: 30px">logout</a>
+        <a class="nav-link" href="{% url 'logoutStudent' %}" style="color: white;padding-right: 230px">logout</a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'mainpage' %}" style="color: white;padding-right: 30px;font-size: 20px"><b>Back to Main Home page</b></a>
       </li>
 
     </ul>

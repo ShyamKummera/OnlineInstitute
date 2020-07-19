@@ -9,5 +9,6 @@ class StudentRegisterModel(models.Model):
 
 class StudentEnrolDetails(models.Model):
     enrol_id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=50,default=True)
     student_contact_no = models.IntegerField()
-    course_name = models.CharField(max_length=30)
+    course_name = models.CharField(max_length=60,default=True)

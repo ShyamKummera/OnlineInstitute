@@ -36,6 +36,8 @@ urlpatterns = [
 # ----------------------------view all enroll courses---------------------------------------------------
 
     path('viewAllEnrolCourse/',views.viewAllEnrolCourse,name="viewAllEnrolCourse"),
+    path('cancelEnrolCourses/',views.cancelEnrolCourses,name="cancelEnrolCourses"),
+    path('cancelButton/',views.cancelButton,name="cancelButton"),
 
 # ---------------------------student Logout-----------------------------------------------------
     path('logoutStudent/',views.logoutStudent,name="logoutStudent"),
